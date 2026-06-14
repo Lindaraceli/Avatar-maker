@@ -291,7 +291,7 @@ def diseno_chas():
 def color_chas():
     global c_chas
     c_chas += 1
-    if c_chas == 12:
+    if c_chas == 11:
         c_chas = 0
     id_chas = (v_chas * 11) + c_chas
     if id_chas == 55:
